@@ -1,14 +1,17 @@
 import java.util.*;
-class intrest
+class Simple
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        int p,t,r,se=0;
-        p=sc.nextInt();
-        t=sc.nextInt();
-        r=sc.nextInt();
-        se=((p*t*r)/100);
-        System.out.println(se);
+        Scanner sc=new Scanner(System.in);
+        int P,T,R,S;
+        P=sc.nextInt();
+        T=sc.nextInt();
+        R=sc.nextInt();
+        S=(P*T*R)/100;
+        System.out.println(S);
+        
+        
+        
     }
-}       
+}
